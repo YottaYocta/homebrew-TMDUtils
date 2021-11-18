@@ -3,6 +3,7 @@ class Termme < Formula
   desc "A markdown note-taking program for the terminal"
   homepage "https://github.com/YottaYocta/TermME"
   license "MIT"
+  version "v1.1.0"
 
   if OS.mac?
     url "https://github.com/YottaYocta/TermME/releases/latest/download/TermME_MacOS.zip"
