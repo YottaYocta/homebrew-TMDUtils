@@ -2,9 +2,17 @@ class TermME < Formula
 
   desc "A markdown note-taking program for the terminal"
   homepage "https://github.com/YottaYocta/TermME"
-  url "https://github.com/YottaYocta/TermME/releases/download/v1.0.0/TermME_MacOS.zip"
-  sha256 "857efee3bdd7f547da2575abde50f665e27301ab88678bcfd28b78db4083e8e9"
   license "MIT"
+
+  if OS.mac?
+    url "https://github.com/YottaYocta/TermME/releases/latest/download/TermME_MacOS.zip"
+    sha256 "204b7fcd1dbcd661edac4d07770cb0dd354aef393d73a10bd5b8a7c845fd807c"
+  end
+
+  if OS.linux?
+    url "https://github.com/YottaYocta/TermME/releases/latest/download/TermME_Ubuntu.zip"
+    sha256 "d90d70ee2daffc704a17bf02f8f38eea962c8ebad96366cc1799f51ed1bbbab8"
+  end
 
   def install
     bin.install "TermME"
