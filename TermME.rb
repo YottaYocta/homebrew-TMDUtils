@@ -1,4 +1,4 @@
-class termme < Formula
+class Termme < Formula
 
   desc "A markdown note-taking program for the terminal"
   homepage "https://github.com/YottaYocta/TermME"
