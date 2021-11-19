@@ -3,16 +3,16 @@ class Termme < Formula
   desc "A markdown note-taking program for the terminal"
   homepage "https://github.com/YottaYocta/TermME"
   license "MIT"
-  version "v1.1.1"
+  version "v1.1.2"
 
   if OS.mac?
     url "https://github.com/YottaYocta/TermME/releases/latest/download/TermME_MacOS.zip"
-    sha256 "c68b505a818ee6a4512e78d43d69b8aa5cf227c67725c2526c96f5b0809ad0e7"
+    sha256 "17880e91bf01a4dfc35d4f61b38b4407b019a96a10c7249f249290ac06750f69"
   end
 
   if OS.linux?
     url "https://github.com/YottaYocta/TermME/releases/latest/download/TermME_Ubuntu.zip"
-    sha256 "cde1037638ba176b203c6808913b23296f744751f14c326ac0283b4df867693b"
+    sha256 "8600f2b3a88b6a8f25ec295ef7bb00caa6f86d482429e61a4f3b21c2c8f25e4b"
   end
 
   def install
