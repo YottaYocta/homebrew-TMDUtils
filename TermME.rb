@@ -7,12 +7,12 @@ class Termme < Formula
 
   if OS.mac?
     url "https://github.com/YottaYocta/TermME/releases/latest/download/TermME_MacOS.zip"
-    sha256 "204b7fcd1dbcd661edac4d07770cb0dd354aef393d73a10bd5b8a7c845fd807c"
+    sha256 "c68b505a818ee6a4512e78d43d69b8aa5cf227c67725c2526c96f5b0809ad0e7"
   end
 
   if OS.linux?
     url "https://github.com/YottaYocta/TermME/releases/latest/download/TermME_Ubuntu.zip"
-    sha256 "d90d70ee2daffc704a17bf02f8f38eea962c8ebad96366cc1799f51ed1bbbab8"
+    sha256 "cde1037638ba176b203c6808913b23296f744751f14c326ac0283b4df867693b"
   end
 
   def install
