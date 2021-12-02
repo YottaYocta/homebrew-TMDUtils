@@ -7,7 +7,7 @@ class Mdparse < Formula
 
   if OS.mac?
     url "https://github.com/YottaYocta/MDParse/releases/latest/download/MDParse_MacOS.zip"
-    sha256 "6414ebf2e1791d18b22bd6981b1e98a40410214ffdd05e3c1f718866aa68643a"
+    sha256 "b876e943c30b80609ca86ccb553d4de627748ee2d2f9aa4b92ca31daf404c431"
   end
 
   if OS.linux?
