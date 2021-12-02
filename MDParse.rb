@@ -3,7 +3,7 @@ class Mdparse < Formula
   desc "A Markdown to CSV parser for exporting Markdown notes to various flashcard/study apps"
   homepage "https://github.com/YottaYocta/MDParse"
   license "MIT"
-  version "v0.0.2"
+  version "v0.0.3"
 
   if OS.mac?
     url "https://github.com/YottaYocta/MDParse/releases/latest/download/MDParse_MacOS.zip"
@@ -12,7 +12,7 @@ class Mdparse < Formula
 
   if OS.linux?
     url "https://github.com/YottaYocta/MDParse/releases/latest/download/MDParse_Ubuntu.zip"
-    sha256 "dfc0b5754291a939eb909807f408b089b287f21823be44f52f4bdf001cc65598"
+    sha256 "716cdb0691577c96f14326dbdd9357dea6596fc1481ef8a2817e24aabf9b5f0a"
   end
 
   def install
