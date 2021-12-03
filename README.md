@@ -1,14 +1,9 @@
-# TermME Tap
+# TMDUtils Tap
 
-This is the official tap for TermME, the terminal Markdown editor.
-
-# Installation
-
-MacOS and Linux both have a dedicated installation method via the package manager _Homebrew_
+This is the official tap for my terminal-based markdown tools.
 
 ```
 brew upgrade && brew tap yottayocta/TermME
-brew install TermME
 ```
 
-Windows users must head to the [main repo](https://github.com/YottaYocta/TermME) to download the executable files.
+Windows users must head to the [repos](https://github.com/YottaYocta) to download the executable files.
